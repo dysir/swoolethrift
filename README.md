@@ -27,21 +27,20 @@ thrift 对 php 服务端 socket实现仅支持单进程阻塞处理
 ```
     {
         "repositories":{
-            "hcz/common_data":{
-                "type":"vcs",
-                # 可能会报 secure-http for details ，composer config --global secure-http false 放开限制
-                "url":"http://git.fengchaohuzhu.com:10080/duyang/swoole_thrift.git"
+            "duyang/common_data":{
+                "type":"git",
+                "url":"https://github.com/dysir/swoolethrift.git"
             }
         },
         "require": {
-            "hcz/swoole_thrift": "dev-master"
+            "duyang/swoole_thrift": "dev-master"
         }
     }
 
 ```
 >  composer install
 
->  cd vendor/hcz/swoole_thrift/tests
+>  cd vendor/duyang/swoole_thrift/tests
 
 >  php server.php # 默认监听 9090
 
