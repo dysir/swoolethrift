@@ -1,0 +1,21 @@
+{
+    "name": "duyang/swoole_thrift",
+    "require": {
+        "apache/thrift": "^0.13.0",
+        "ext-swoole": "^4.0.0",
+        "php": ">=7.2.0"
+    },
+    "authors": [
+        {
+            "name": "duyang",
+            "email": "1030302324@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SwooleThrift\\": "src/",
+            "tests\\": "tests/"
+        }
+    }
+}
