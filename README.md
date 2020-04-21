@@ -29,7 +29,7 @@ thrift 对 php 服务端 socket实现仅支持单进程阻塞处理
 ```
     {
         "repositories":{
-            "duyang/common_data":{
+            "duyang/swoole_thrift":{
                 "type":"git",
                 "url":"https://github.com/dysir/swoolethrift.git"
             }
